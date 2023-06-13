@@ -1,15 +1,19 @@
 body {
-    padding: 0 100px 0 100px;
-    background-color: #1f2937;
+    padding: 0;
+    margin: 0;
+    
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
-    
+    /* margin-bottom: 100px; */
+    background-color: #1f2937;
     color: #F9FAf8;
-    
+    /* width: 100%; */
+    /* height: 25vh; */
+    padding: 10px 100px 0 100px;
+    height: 5vh;
 }
 
 .icon {
@@ -27,10 +31,13 @@ ul {
 .hero {
     display: flex;
     gap: 16px;
+    background-color: #1f2937;
+    height: 25vh;
+    padding: 0 100px 0 100px;
 }
 
 .text {
-    font-size: 48px;
+    font-size: 28px;
     color: #F9FAf8;
     font-weight: 900;
 }
@@ -45,12 +52,15 @@ ul {
     flex-direction: column;
     flex-basis: 50%;
     flex-grow: 1;
+    margin: 20px 0px;
   }
 
   .hero-right {  
    flex-basis: 50%;
     flex-grow: 1;
     background-color: burlywood;
+    margin: 20px 0px;
+  
   }
 
   button {
@@ -61,3 +71,117 @@ ul {
     color: white;
     padding: 4px;
   }
+
+  .information {
+    background-color: white;
+    height: 25vh;
+    padding: 0 100px 0 100px;
+  }
+
+  .information-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #1f2937;
+    padding: 10px;
+  }
+
+ .information-pics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+ }
+
+ img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+ }
+
+ .information-pic {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    text-align: center;
+    font-size: 10px;
+ }
+
+ .quote {
+    height: 25vh;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .quote-text {
+    text-align: start;
+    width: 400px;
+ }
+
+ .quote-author {
+    text-align: end;
+    width: 400px;
+ }
+
+ .call {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .call-to-action {
+    background-color: #3882f6;
+    width: 100%;
+    height: 70px;
+    margin: 20px 100px;
+    border-radius: 10px;
+    display: flex;
+ }
+
+ .call-right {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px 0px 0px;
+    align-items: center;
+ }
+
+ .call-left {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 50px;
+    flex-direction: column;
+ }
+
+ .call-left-title {
+    color: white;
+    
+ }
+
+ .call-left-sub {
+    color: white;
+    font-size: 10px;
+    
+    
+ }
+
+ .sign-up-btn{
+   border: 2px solid white;
+   padding: 0;
+   height: 30px;
+   border-radius: 10px;
+ }
+
+ footer {
+   background-color: #1f2937;
+   text-align: center;
+   height: 5vh;
+   padding-top: 10px;
+   color: white;
+ }
